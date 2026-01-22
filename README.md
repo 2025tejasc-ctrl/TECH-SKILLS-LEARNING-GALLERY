@@ -1,5 +1,4 @@
 Description
-
 Tech Skills Learning Gallery is a frontend UI project designed to demonstrate the practical use of CSS Grid for layout structuring.
 The project showcases essential IT and development skills such as HTML, CSS, JavaScript, backend technologies, databases, and DevOps tools.
 
@@ -12,9 +11,11 @@ The layout includes:
 This project focuses on layout planning, alignment, spacing, and visual hierarchy without using advanced animations or frameworks.
 It is suitable for academic assignments, beginners learning CSS Grid, and frontend UI practice.
 
+
 Tech Stack
 HTML5
 CSS3 (CSS Grid & Flexbox)
+
 
 Learning Objectives
 - Understanding CSS Grid layouts
