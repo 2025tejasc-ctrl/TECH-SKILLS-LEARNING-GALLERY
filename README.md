@@ -1,4 +1,5 @@
 Description
+
 Tech Skills Learning Gallery is a frontend UI project designed to demonstrate the practical use of CSS Grid for layout structuring.
 The project showcases essential IT and development skills such as HTML, CSS, JavaScript, backend technologies, databases, and DevOps tools.
 
