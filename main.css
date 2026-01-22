@@ -1,0 +1,218 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"Segoe UI", Arial, sans-serif;
+}
+
+body{
+  min-height:100vh;
+  background:
+    linear-gradient(120deg, rgba(0,0,0,0.75), rgba(0,0,0,0.85)),
+    url("https://images.unsplash.com/photo-1498050108023-c5249f4df085");
+  background-size:cover;
+  background-position:center;
+  color:#fff;
+}
+
+/* ---------- HEADER ---------- */
+header{
+  text-align:center;
+  padding:50px 20px 35px;
+}
+
+header h1{
+  font-size:44px;
+  margin-bottom:10px;
+}
+
+header p{
+  font-size:16px;
+  opacity:0.85;
+  max-width:600px;
+  margin:auto;
+}
+
+/* ---------- NAV ---------- */
+nav{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  padding:16px;
+  background:rgba(255,255,255,0.05);
+  backdrop-filter: blur(8px);
+}
+
+nav a{
+  color:#fff;
+  text-decoration:none;
+  font-weight:600;
+  font-size:14px;
+}
+
+nav a:hover{
+  opacity:0.75;
+}
+
+/* ---------- MAIN GRID ---------- */
+.main{
+  display:grid;
+  grid-template-columns:320px 1fr;
+  gap:30px;
+  padding:30px;
+}
+
+/* ---------- SIDEBAR ---------- */
+.sidebar{
+  background:rgba(255,255,255,0.08);
+  padding:28px;
+  border-radius:20px;
+  backdrop-filter: blur(12px);
+}
+
+.sidebar h3{
+  font-size:30px;
+  margin-bottom:18px;
+}
+
+.sidebar h5{
+  font-size:30px;
+  margin-bottom:10px;
+}
+
+.sidebar ul{
+  padding-left:20px;
+  margin-bottom:22px;
+}
+
+.sidebar li{
+  margin-bottom:10px;
+  font-size:14px;
+  opacity:0.9;
+}
+
+/* ---------- GALLERY ---------- */
+.gallery{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap:30px;
+}
+
+/* ---------- CARD ---------- */
+.card{
+  background:rgba(255,255,255,0.10);
+  border-radius:22px;
+  overflow:hidden;
+  padding-bottom:22px;
+  backdrop-filter: blur(14px);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover{
+  transform: translateY(-8px);
+  box-shadow:0 15px 30px rgba(0,0,0,0.35);
+}
+
+.card img{
+  width:100%;
+  height:160px;
+  object-fit:cover;
+}
+
+.card h4{
+  margin-top:18px;
+  font-size:21px;
+  text-align:center;
+}
+
+.card p{
+  font-size:20px;
+  opacity:0.9;
+  text-align:center;
+  padding:0 20px;
+  margin-top:8px;
+}
+
+/* ---------- CTA ---------- */
+.cta-section{
+  width:100%;
+  background:#ffffff;
+  color:rgb(0, 0, 0);
+  padding:10px 50px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  align-items:center;
+  opacity:70%;
+  margin: auto;
+}
+
+.cta-text h2{
+  font-size:50px;
+  margin-bottom:20px;
+}
+
+ Attached
+.cta-text p{
+  max-width:420px;
+  margin-bottom:22px;
+}
+
+.cta-text button{
+  padding:12px 28px;
+  border:none;
+  border-radius:8px;
+  background:rgb(233, 195, 195);
+  color:#070707;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+.cta-image img{
+  width: 600px;
+  justify-self:end;
+  border-radius:200%
+}
+
+
+/* ---------- FOOTER ---------- */
+.main-footer{
+  width:100%;
+  background:black;
+  color:#e68484;
+  padding:70px 100px;
+}
+
+.footer-grid{
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr 1fr;
+  gap:40px;
+}
+
+.footer-about h3{
+  color:white;
+  margin-bottom:12px;
+}
+
+.footer-links h4{
+  color:white;
+  margin-bottom:12px;
+}
+
+.footer-links a{
+  display:block;
+  color:#aaa;
+  text-decoration:none;
+  margin-bottom:8px;
+}
+
+.footer-links a:hover{
+  color:white;
+}
+
+.Itm logo img{
+    width:10px;
+    height : auto;
+    border-radius:1000%;
+}    
+    
