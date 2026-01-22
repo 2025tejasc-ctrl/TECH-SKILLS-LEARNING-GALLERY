@@ -14,11 +14,13 @@ It is suitable for academic assignments, beginners learning CSS Grid, and fronte
 
 
 Tech Stack
+
 HTML5
 CSS3 (CSS Grid & Flexbox)
 
 
 Learning Objectives
+
 - Understanding CSS Grid layouts
 - Creating responsive card-based designs
 - Structuring professional UI sections
